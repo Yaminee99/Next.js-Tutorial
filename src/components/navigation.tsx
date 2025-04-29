@@ -34,7 +34,7 @@ export const Navigation = () => {
 
             <SignedIn>
               <Link href="/user-profile">Profile</Link>
-              <SignOutButton>Sign Out</SignOutButton>
+              <SignOutButton>Sign Out Button</SignOutButton>
             </SignedIn>
             {/* <UserButton></UserButton> */}
           </div>
