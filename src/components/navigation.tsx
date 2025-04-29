@@ -27,7 +27,7 @@ export const Navigation = () => {
               {/* <SignUpButton mode="modal"> */}
               <SignUpButton>
                 <button className="px-2 py-1 text-sm border border-neutral-300 dark:border-neutral-600 dark:text-neutral-200 dark:hover:bg-neutral-700">
-                  SignUp
+                  SignUp Button
                 </button>
               </SignUpButton>
             </SignedOut>
