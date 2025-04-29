@@ -1,5 +1,5 @@
 "use client";
-import { useAuth, useUser } from "@clerk/nextjs";
+import { useUser } from "@clerk/nextjs";
 import { useState } from "react";
 
 export default function Counter() {
@@ -12,7 +12,7 @@ export default function Counter() {
   //     return null;
   //   }
 
-  const { isLoaded, isSignedIn, user } = useUser();
+  const { isLoaded, isSignedIn } = useUser();
   if (!isLoaded || !isSignedIn) {
     return null;
   }
